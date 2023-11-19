@@ -1,0 +1,45 @@
+
+{
+"rules":[
+    {
+      "ruleName": "NON_EXISTING_TABLE",
+      "description": "Nepostojaca tabela ~ u bazi ~",
+      "suggestion": "Pokusajte sa ~"
+    },
+    {
+      "ruleName": "NON_EXISTING_COLUMN",
+      "description": "Nepostojaca kolona ~ u tabeli ~",
+      "suggestion": "Pokusajte sa ~"
+    },
+    {
+      "ruleName": "QUERY_NOT_VALID",
+      "description": "Nedostaju delovi upita ~",
+      "suggestion": "Pokusajte sa ~"
+    },
+    {
+      "ruleName": "QUERY_WRONG_ORDER",
+      "description": "Pogresan redosled iskaza",
+      "suggestion": "Pokusajte sa ~"
+    },
+    {
+      "ruleName": "ALIAS_DOUBLE_QUOTES",
+      "description": "Lose formatiran alijas ~",
+      "suggestion": "Pokusajte sa duplim navodnicima"
+    },
+    {
+      "ruleName": "FUNCTION_MISSING_GROUP_BY",
+      "description": "Funkcija ~ nema GROUP_BY",
+      "suggestion": "Dodajte GROUP BY"
+    },
+    {
+      "ruleName": "WHERE_WRONG_FUNCTION",
+      "description": "U WHERE iskazu se nalazi funkcija agregacije",
+      "suggestion": "Obrisite funkciju agregacije iz WHERE iskaza"
+    },
+    {
+      "ruleName": "CSV_FILE_NOT_VALID",
+      "description": "U WHERE iskazu se nalazi funkcija agregacije",
+      "suggestion": "Obrisite funkciju agregacije iz WHERE iskaza"
+    }
+  ]
+}
